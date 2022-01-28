@@ -1,0 +1,27 @@
+@media screen and (min-width:1200px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+}
+
+@media screen and (max-width:576px){
+    .review img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .review h3{
+        font-size: 28px;
+    }
+    .review p{
+        font-size: 14px;
+    }
+    .footer-follow img{
+        width: 30px;
+    }
+}

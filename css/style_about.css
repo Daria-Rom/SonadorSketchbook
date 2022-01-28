@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url(../img/150216-uzor-akvarelnaya_zhivopis-akrilovaya_kraska-illustracia-akva-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.logo-a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.logo-a:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.navbar{
+    margin-top: -24px;
+}
+nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 46px;
+    color: black;
+}
+nav a:hover{
+    color: cornflowerblue;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.big-text{
+    padding-bottom: 70px;
+}
+.s-history{
+    padding-top: 70px;
+}
+.s-history h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 38px;
+}
+.s-history h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 32px;
+}
+.s-history p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-size: 16px;
+    text-align: justify;
+}
+.s-changes{
+    background-image: url(../img/148643-rozovyj-dizajn-nebo-purpurnyj_cvet-art-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.s-changes h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+footer{
+    padding:10px;
+}
+footer h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+footer h3:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+    transition-duration: 0.3s;
+}
+.footer-follow p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer-follow img{
+    max-width: 38px;
+}
+.site{
+    text-align: center;
+    color: cornflowerblue;
+}
+footer hr{
+    border: 1px solid cornflowerblue;
+    opacity: .5;
+}
+.phone-number a{
+    text-decoration: none;
+    color: black;
+}
+.phone-number a:hover{
+    text-decoration: none;
+    color: cornflowerblue;
+    transition-duration: 0.3s;
+}

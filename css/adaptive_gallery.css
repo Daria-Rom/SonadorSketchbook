@@ -1,0 +1,21 @@
+@media screen and (min-width:1200px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+    .img-blocks{
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+    .sale h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+}

@@ -1,0 +1,52 @@
+@media screen and (min-width:1200px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav-fl{
+        display :  inline-flex;
+    }
+    .sale h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav a{
+        font-size: 20px;
+    }
+    .product{
+        padding-left: 10px;
+    }
+    .product h3{
+        font-size: 23px;
+    }
+    .product-price{
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    .sale h2{
+        font-size: 38px;
+    }
+    .footer-follow img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .product h3{
+        font-size: 22px;
+    }
+    .product-price{
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .sale h2{
+        font-size: 34px;
+    }
+    .footer-follow img{
+        width: 30px;
+    }
+}

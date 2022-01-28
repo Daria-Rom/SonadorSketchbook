@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url(../img/150216-uzor-akvarelnaya_zhivopis-akrilovaya_kraska-illustracia-akva-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.logo-nav p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+.logo-nav p:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+    transition-duration: 0.3s;
+}
+.navbar{
+    margin-top: -24px;
+}
+nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 46px;
+    color: black;
+}
+nav a:hover{
+    color: cornflowerblue;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.about{
+    padding-top: 110px;
+}
+.about h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 58px;
+    max-width: 610px;
+}
+.about p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 506px;
+    padding-bottom: 219px;
+}
+.news{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-size: cover;
+}
+.news h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 43px;
+    padding-bottom: 60px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu img{
+    max-width: 100%;
+    height: auto;
+}
+.product{
+    max-width: 306px;
+}
+.product-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-style: 16px;
+}
+.product-price{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold 700;
+    font-size: 24px;
+    padding-top: 35px;
+}
+.product h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 32px;
+}
+button{
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.follow{
+    text-align: center;
+    background-image: url(../img/148643-rozovyj-dizajn-nebo-purpurnyj_cvet-art-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.follow-p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 600;
+    font-size: 24px;
+    padding-top: 100px;
+}
+.follow a{
+    text-decoration: none;
+    color: black;
+}
+.follow a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.follow .contacts{
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+}
+.follow h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 43px;
+}
+.follow img{
+    max-width: 38px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.s-hr{
+    width: 95px;
+    border: 1px solid cornflowerblue;
+    opacity: .5;
+}
+.phone-number a{
+    text-decoration: none;
+    color: black;
+}
+.phone-number a:hover{
+    text-decoration: none;
+    color: cornflowerblue;
+    transition-duration: 0.3s;
+}
+footer{
+    padding:10px;
+}
+footer h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+footer h3:hover{
+    transform: scale(1.1);
+    color: cornflowerblue;
+    transition-duration: 0.3s;
+}
+.footer-follow p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer-follow img{
+    max-width: 38px;
+}
+.site{
+    text-align: center;
+    color: cornflowerblue;
+}
+footer hr{
+    border: 1px solid cornflowerblue;
+    opacity: .5;
+}
